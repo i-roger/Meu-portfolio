@@ -4,12 +4,39 @@
 
 :root {
   @apply bg-zinc-900;
+  scroll-behavior: smooth;
+  font-weight: 500;
 }
 
 h1 {
-  @apply text-zinc-50;
+  color: #f9f9f9;
 }
 
 p {
-  @apply text-zinc-300;
+  color: #828282;
+}
+
+a {
+  color: #f9f9f9;
+}
+
+@media (max-width: 1200px) {
+  :root {
+    font-size: 70%;
+  }
+}
+
+.box {
+  @apply bg-zinc-800 border-green-400 border-2 p-4 rounded-xl;
+  @apply text-center;
+  @apply transition;
+  @apply hover:scale-125;
+}
+
+input {
+  @apply bg-zinc-700;
+}
+
+textarea {
+  @apply bg-zinc-700;
 }

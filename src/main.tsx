@@ -5,7 +5,7 @@ import './index.css'
 import App from './App'
 import Home from './routes/Home'
 import Sobre from './routes/Sobre'
-import Contato from './routes/Contato'
+import Contato from './sections/contato'
 import ErrorPage from './routes/ErrorPage'
 
 // 1 - Configurando Router <---------------
@@ -20,14 +20,6 @@ const router = createBrowserRouter([
       {
       path: "/",
       element: <Home/>,
-    },
-      {
-      path: "sobre",
-      element: <Sobre/>,
-    },
-    {
-      path: "contato",
-      element: <Contato/>
     }
   ]
   },

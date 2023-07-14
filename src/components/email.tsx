@@ -29,21 +29,25 @@ export default function Email() {
     }
 
     return(
-        <div className='bg-zinc-400 rounded-xl xl:w-[800px]'>
-            <form className='flex flex-col p-10' onSubmit={(e) => {e.preventDefault(e); handleSubmit(e);}}>
-                <label htmlFor='fName'>Nome</label>
+        <div className='bg-zinc-800 rounded-xl xl:w-[800px]'>
+            <form className='flex flex-col p-10 text-xl gap-1 text-white' onSubmit={(e) => {e.preventDefault(e); handleSubmit(e);}}>
+                <label className="" htmlFor='fName'>Nome</label>
                 <input className='w-full rounded h-8 p-2' type='text' required name='fName' id='fName'></input>
                 <br/>
-                <label htmlFor='email'>Seu Email</label>
+                <label className="" htmlFor='email'>Seu Email</label>
                 <input className='w-full rounded h-8 p-2' type='text' required name='email' id='email'></input>
                 <br/>
-                <label htmlFor='message'>Messagem</label>
+                <label className="" htmlFor='message'>Messagem</label>
                 <textarea className='w-full rounded resize-none p-2' rows={5} cols={50} required name='message' id='message'></textarea>
                 <br/>
-                <button className={`text-white bg-gradient-to-r from-green-400 
-via-green-500 to-green-600 hover:bg-gradient-to-br 
-focus:ring-4 focus:outline-none focus:ring-green-300 dark:focus:ring-green-800 shadow-lg 
-shadow-green-500/50 dark:shadow-lg dark:shadow-green-800/80 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2`} type='submit'>Submit</button>
+                <div className='flex justify-center'>
+                    <button className={`w-96 h-12 text-white bg-gradient-to-r from-green-400 
+                    via-green-500 to-green-600 hover:bg-gradient-to-br 
+                    focus:ring-4 focus:outline-none focus:ring-green-300 dark:focus:ring-green-800 shadow-lg 
+                    shadow-green-500/50 dark:shadow-lg dark:shadow-green-800/80 font-medium rounded-lg text-sm px-5 py-2.5 
+                    text-center mr-2 mb-2 hover:scale-95 transition`} 
+                    type='submit'>Submit</button>
+                </div>
             </form>
         </div>
     )
