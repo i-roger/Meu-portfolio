@@ -1,5 +1,3 @@
-import { Link } from 'react-router-dom'
-
 export default function navbar() {
     return(
         <nav className='sticky z-20 top-0 bg-zinc-800 p-5 flex justify-center gap-5'>

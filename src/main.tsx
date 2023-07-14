@@ -4,8 +4,6 @@ import './index.css'
 
 import App from './App'
 import Home from './routes/Home'
-import Sobre from './routes/Sobre'
-import Contato from './sections/contato'
 import ErrorPage from './routes/ErrorPage'
 
 // 1 - Configurando Router <---------------
