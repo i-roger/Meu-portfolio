@@ -24,7 +24,7 @@ export default function sobremim() {
                 
                 <div className="flex flex-col items-center gap-5 mx-20">
                     <h1 className="text-4xl"> Sobre Mim </h1>
-                    <p className="text-2xl text-center">Desenvolvedor Front-end com experiência em React.js, Next.js, Redux, JavaScript, TypeScript, Styled Components, Material UI e consumo de APIs REST. Apaixonado pelo desenvolvimento de componentes reutilizáveis. Também possui experiência em projetos gerenciados por Metodologias Ágeis. Formado em Sistemas de Informação e cursando Especialização em Front-End na Digital House Brasil.
+                    <p className="text-2xl text-center">Desenvolvedor Front-end com experiência em React.js, Vite.js, Next.js, JavaScript, TypeScript, Styled Components e consumo de APIs REST. Apaixonado pelo desenvolvimento de componentes reutilizáveis. Cursando a faculdade de Ciências da Computação, Curso tecnico em informática Completo.
                     </p>
                 </div>
             </div>

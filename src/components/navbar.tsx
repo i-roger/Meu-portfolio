@@ -4,8 +4,6 @@ export default function navbar() {
             <a className='hover:scale-110 duration-500 text-zinc-50 font-semibold text-2xl' href="#sobremim">Home</a>
             <a className='hover:scale-110 duration-500 text-zinc-50 font-semibold text-2xl' href="#sobremim">Sobre</a>
             <a className='hover:scale-110 duration-500 text-zinc-50 font-semibold text-2xl' href="#habilidades">Skills</a>
-            <a className='hover:scale-110 duration-500 text-zinc-50 font-semibold text-2xl' href="#contato">Contato</a>
-
         </nav>
     )
 }

@@ -11,7 +11,7 @@ import sass from '../assets/languages/sass.svg'
 export default function hablidades() {
     return(
         <section id="habilidades">
-                <div className="flex justify-center flex-col items-center gap-10 mx-auto px-10 pt-32">
+                <div className="flex justify-center flex-col items-center gap-10 mx-auto px-10">
                     <h1 className='text-4xl'>Habilidades</h1>
                     <div className="flex justify-center w-[60%] gap-10 flex-wrap">
                         <div className="box" key="0">
