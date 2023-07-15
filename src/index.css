@@ -2,6 +2,26 @@
 @tailwind components;
 @tailwind utilities;
 
+::-webkit-scrollbar {
+  width: 14px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  @apply bg-zinc-800;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  @apply bg-green-400;
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  @apply bg-green-300;
+}
+
 :root {
   @apply bg-zinc-900;
   scroll-behavior: smooth;
@@ -20,17 +40,12 @@ a {
   color: #f9f9f9;
 }
 
-@media (max-width: 1200px) {
-  :root {
-    font-size: 70%;
-  }
-}
-
 .box {
-  @apply bg-zinc-800 border-green-400 border-2 p-4 rounded-xl;
-  @apply text-center;
+  @apply bg-zinc-800 border-green-400 border-2 p-4 rounded-xl shadow-xl hover:bg-zinc-700 hover:border-green-300;
+  @apply text-center flex flex-col gap-2;
   @apply transition;
   @apply hover:scale-125;
+  @apply text-[#828282] hover:text-green-400;
 }
 
 input {

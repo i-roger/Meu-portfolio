@@ -11,51 +11,51 @@ import sass from '../assets/languages/sass.svg'
 export default function hablidades() {
     return(
         <section id="habilidades">
-                <div className="flex justify-center flex-col items-center gap-10 mx-auto px-10">
+                <div className="flex justify-center flex-col items-center gap-10 px-10">
                     <h1 className='text-4xl'>Habilidades</h1>
-                    <div className="flex justify-center w-[60%] gap-10 flex-wrap">
+                    <div className="flex justify-center gap-10 flex-wrap">
                         <div className="box" key="0">
-                            <p>HTML5</p>
+                            HTML5
                             <img src={html} alt="html"/>
                         </div>
                         
                         <div className="box" key="1">
-                            <p>CSS3</p>
+                            CSS3
                             <img src={css} alt="html"/>
                         </div>
                         
                             <div className="box" key="2">
-                            <p>JavaScript</p>
+                                Javascript
                             <img src={js} alt="html"/>
                             </div>
                         
                             <div className="box" key="3">
-                            <p>TypeScript</p>
+                            TypeScript
                             <img src={ts} alt="html"/>
                             </div>
                         
                             <div className="box" key="4">
-                            <p>React.js</p>
+                            React.js
                             <img src={reactjs} alt="html"/>
                             </div>
                         
                             <div className="box" key="5">
-                            <p>Next.js</p>
+                            Next.js
                             <img src={nextjs} alt="html"/>
                             </div>
                         
                             <div className="box" key="6">
-                            <p>CSS-in-JS</p>
+                            CSS-in-JS
                             <img src={styledcomponents} alt="html"/>
                             </div>
                         
                             <div className="box" key="8">
-                            <p>Tailwind CSS</p>
+                            Tailwind CSS
                             <img src={tailwindcss} alt="html"/>
                             </div>
                         
                             <div className="box" key="16">
-                            <p>SASS</p>
+                            SASS
                             <img src={sass} alt="html"/>
                         </div>
                     </div>
