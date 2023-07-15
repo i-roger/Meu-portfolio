@@ -16,7 +16,7 @@ export default function sobremim() {
                             <a href="#" className="bg-gradient-to-r from-green-400 
                                                 via-green-500 to-green-600 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-green-300 dark:focus:ring-green-800 shadow-lg 
                                                 shadow-green-500/50 dark:shadow-lg dark:shadow-green-800/80 rounded-full px-5 py-2.5 transition hover:scale-95">Download CV</a>
-                            <a href="#" className="border-2 border-green-400 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-green-300 dark:focus:ring-green-800 shadow-lg 
+                            <a href="mailto:mroger.dev@gmail.com" className="border-2 border-green-400 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-green-300 dark:focus:ring-green-800 shadow-lg 
                                                 shadow-green-500/50 dark:shadow-lg dark:shadow-green-800/80 rounded-full px-4 py-2.5 transition hover:scale-95">Entrar em contato</a>
                         </div>
                     </div>
