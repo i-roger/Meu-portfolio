@@ -1,10 +1,12 @@
+import img_perfil from '../assets/perfil.png'
+
 export default function sobremim() {
     return(
         <section id="sobremim" className="">
-            <div className="flex flex-col gap-20 mx-auto">
+            <div className="flex flex-col gap-20">
                 <div className="banner flex justify-evenly gap-10 px-4 pt-32 max-sm:flex-col max-sm:items-center sm:flex-col sm:items-center md:flex-row">
-                    <div className="w-60 h-60 sm:w-60 sm:h-60 md:h-72 md:w-72 rounded-xl bg-green-300 text-center transition hover:scale-110">
-                        <p>IMAGEM</p>
+                    <div className="">
+                        <img className="w-72 h-72 sm:w-72 sm:h-72 md:h-80 md:w-80 object-cover rounded-xl transition hover:scale-110" src={img_perfil}/>
                     </div>
                     <div className="intro flex flex-col gap-5 justify-center">
                         <div className="">
@@ -22,10 +24,10 @@ export default function sobremim() {
                     </div>
                 </div>
                 
-                <div className="flex flex-col items-center gap-5 px-4">
+                <div className="flex flex-col items-center gap-5 px-12 lg:px-60 md:px-40">
                     <h1 className="text-4xl"> Sobre Mim </h1>
-                    <p className="text-2xl text-center">Desenvolvedor Front-end com experiência em React.js, Vite.js, Next.js, JavaScript, TypeScript, Styled Components e consumo de APIs REST. Apaixonado pelo desenvolvimento de componentes reutilizáveis. Cursando a faculdade de Ciências da Computação, Curso tecnico em informática Completo.
-                    </p>
+                    <p className="text-2xl text-center">Desenvolvedor Front-end com experiência em React.js, Vite.js, Next.js, JavaScript, TypeScript, Styled Components, TailWindCSS, SASS e consumo de APIs REST. 
+                    Apaixonado pelo desenvolvimento de aplicações e segurança da informação. <br/> Cursando a faculdade de Ciências da Computação 5º Período <br/> ✅ Curso Técnico em Informática Completo</p>
                 </div>
             </div>
         </section>

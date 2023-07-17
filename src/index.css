@@ -47,11 +47,3 @@ a {
   @apply hover:scale-125;
   @apply text-[#828282] hover:text-green-400;
 }
-
-input {
-  @apply bg-zinc-700;
-}
-
-textarea {
-  @apply bg-zinc-700;
-}
