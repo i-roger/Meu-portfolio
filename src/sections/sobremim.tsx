@@ -1,4 +1,5 @@
 import img_perfil from '../assets/perfil.png'
+import cv from '../assets/cv/CV_Desenvolvedor_Front-End_Matheus_Roger.pdf'
 
 export default function sobremim() {
     return(
@@ -15,7 +16,7 @@ export default function sobremim() {
                             <p className="text-[1.7rem] font-[500]">Desenvolvedor Front-End</p>
                         </div>
                         <div className="btn flex gap-5 justify-evenly">
-                            <a href="#" className="bg-gradient-to-r from-green-400 
+                            <a href={cv} download className="bg-gradient-to-r from-green-400 
                                                 via-green-500 to-green-600 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-green-300 dark:focus:ring-green-800 shadow-lg 
                                                 shadow-green-500/50 dark:shadow-lg dark:shadow-green-800/80 rounded-full px-5 py-2.5 transition hover:scale-95">Download CV</a>
                             <a href="mailto:mroger.dev@gmail.com" className="border-2 border-green-400 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-green-300 dark:focus:ring-green-800 shadow-lg 
