@@ -1,5 +1,7 @@
 Projeto criando SPA -> Single page application!!
 
+---> Implementar um menu?? Para o MOBILE ???
+
 ---> Navegação entre páginas -> usando React-Router [RETIRADO]
 
 ---> Envio de email | Feito com 'emailjs' [RETIRADO]

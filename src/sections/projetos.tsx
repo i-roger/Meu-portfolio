@@ -1,6 +1,6 @@
 export default function projetos() {
     return(
-        <div className="flex justify-center flex-col items-center gap-10 px-10">
+        <section id="projetos" className="flex justify-center flex-col items-center gap-10 px-10">
             <h1 className="text-4xl">Projetos</h1>
             <div className="flex flex-col gap-10">
                 
@@ -14,6 +14,6 @@ export default function projetos() {
                 </a>
 
             </div>
-        </div>
+        </section>
     )
 }

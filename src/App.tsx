@@ -1,5 +1,4 @@
 import Navbar from './components/navbar'
-import './App.css'
 
 // 2 - reaproveitamento de estrutura <-------------
 import {Outlet} from 'react-router-dom'

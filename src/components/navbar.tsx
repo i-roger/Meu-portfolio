@@ -10,9 +10,10 @@ export default function navbar() {
             264.303 37.0909 257.636 37.0909H235.455L210.455 187H165.455ZM284.364 101.909L316.636 187H267.545L236.273 101.909H284.364Z"></path></svg>
             </div>
             <div className="flex gap-5">
-            <a className='hover:scale-110 duration-500 text-zinc-50 font-semibold text-2xl' href="#sobremim">Home</a>
-            <a className='hover:scale-110 duration-500 text-zinc-50 font-semibold text-2xl' href="#sobremim">Sobre</a>
-            <a className='hover:scale-110 duration-500 text-zinc-50 font-semibold text-2xl' href="#habilidades">Skills</a>
+                <a className='duration-200 text-zinc-50 font-semibold text-2xl active:text-green-400' href="#sobremim">Home</a>
+                <a className='duration-200 text-zinc-50 font-semibold text-2xl active:text-green-400' href="#sobremim">Sobre</a>
+                <a className='duration-200 text-zinc-50 font-semibold text-2xl active:text-green-400' href="#habilidades">Skills</a>
+                <a className='duration-200 text-zinc-50 font-semibold text-2xl active:text-green-400' href="#projetos">Projetos</a>
             </div>
         </nav>
     )
