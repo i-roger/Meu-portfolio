@@ -50,8 +50,9 @@ a {
 
 .card {
   cursor: pointer;
+  width: 600px; /*Largura dos cards*/
   height:350px;
-  background: url('./assets/img-projects/climatempo.png');
+  /* background: url('./assets/img-projects/climatempo.png'); */
   background-position:center;
   @apply bg-zinc-800 border-green-400 border-2 rounded-xl shadow-xl hover:bg-zinc-700 hover:border-green-300;
   @apply transition;
