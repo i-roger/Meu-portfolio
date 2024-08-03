@@ -50,7 +50,6 @@ a {
 
 .card {
   cursor: pointer;
-  width: 600px; /*Largura dos cards*/
   height:350px;
   /* background: url('./assets/img-projects/climatempo.png'); */
   background-position:center;
